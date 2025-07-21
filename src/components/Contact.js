@@ -86,7 +86,7 @@ const Contact = () => {
           </div>
           <div className="contact-item">
             <h3>Address</h3>
-            <p>123 Innovation Street, Tech City, TC 12345</p>
+            <p>IndraPri chowk , Hazaribagh</p>.
           </div>
           <div className="contact-social">
             <h3>Follow Us</h3>
