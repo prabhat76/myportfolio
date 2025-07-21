@@ -1,8 +1,26 @@
-# Getting Started with Create React App
+# TDS Creations - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern portfolio website for TDS Creations, showcasing services including AI-powered development and cutting-edge technologies.
 
-## Available Scripts
+## Features
+
+- Responsive design that works on all devices
+- Modern UI/UX with smooth animations
+- Sections for services, portfolio, about, and contact
+- Filterable portfolio projects
+- Contact form for client inquiries with EmailJS integration
+
+## Setting Up EmailJS
+
+To make the contact form work with EmailJS:
+
+1. Create a free account at [EmailJS](https://www.emailjs.com/)
+2. Create an Email Service (Gmail, Outlook, etc.)
+3. Create an Email Template with template variables: {{name}}, {{email}}, {{subject}}, and {{message}}
+4. Get your Service ID, Template ID, and Public Key
+5. Update these values in `src/components/Contact.js`
+
+## Getting Started
 
 In the project directory, you can run:
 
